@@ -391,7 +391,7 @@
      background filling any empty space above/below. */
   @media (max-width:640px){
     .hero-bg-photo{
-      background-size: contain;
+background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
       background-color: var(--blue-deep);
