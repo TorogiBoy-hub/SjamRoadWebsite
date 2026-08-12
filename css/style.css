@@ -403,9 +403,10 @@ background-size: cover;
       padding: 50px 6% 40px;
     }
     .hero-logo{
-      max-width: 200px;
+      max-width: 260px;
       margin-bottom: 10px;
-      transform: translateY(-100px);
+      position: relative;
+      top: -80px; 
     }
     .eyebrow{
       margin-bottom: 14px;
