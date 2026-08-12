@@ -128,7 +128,7 @@
     background-image:url('../images/011 Photo.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center 30%;
+    background-position: center 35%;
     z-index:0;
   }
   .hero-bg-overlay{
@@ -392,7 +392,7 @@
     .hero-bg-photo{
 background-size: cover;
       background-repeat: no-repeat;
-      background-position: 15% center;
+      background-position: center;
       background-color: var(--blue-deep);
     }
     /* Shrinks the hero section on phones so it needs less vertical
