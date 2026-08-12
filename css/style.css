@@ -393,7 +393,7 @@
     .hero-bg-photo{
 background-size: cover;
       background-repeat: no-repeat;
-      background-position: 35% center;
+      background-position: center;
       background-color: var(--blue-deep);
     }
     /* Shrinks the hero section on phones so it needs less vertical
