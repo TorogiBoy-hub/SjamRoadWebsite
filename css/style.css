@@ -384,10 +384,10 @@
   .row-2{display:grid; grid-template-columns:1fr 1fr; gap:16px;}
   @media (max-width:520px){.row-2{grid-template-columns:1fr;} .booking-wrap{padding:28px 22px;}}
 
-  /* On narrow phone screens, showing the photo at "cover" crops out the
-     sides and leaves just the middle person visible. Switch to "contain"
-     so the whole photo (all band members) stays visible, with the blue
-     background filling any empty space above/below. */
+/* ===== Mobile hero =====
+   Keep the original photo using cover.
+   Adjust background-position only if the phone crop needs fine-tuning.
+*/
   @media (max-width:640px){
     .hero-bg-photo{
 background-size: cover;
@@ -495,3 +495,22 @@ background-size: cover;
   .band-card:hover{transform:translateY(-4px); box-shadow:5px 5px 0 var(--amber);}
   .fb-btn{transition:transform .18s ease, box-shadow .18s ease;}
   .fb-btn:hover{transform:translateY(-2px); box-shadow:4px 4px 0 var(--black);}
+
+  /* =========================
+   SCROLL REVEAL ANIMATION
+   ========================= */
+
+.reveal {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.reveal.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.reveal-delay {
+    transition-delay: 0.15s;
+}
