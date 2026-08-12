@@ -396,6 +396,33 @@
       background-position: center;
       background-color: var(--blue-deep);
     }
+    /* Shrinks the hero section on phones so it needs less vertical
+       space overall — smaller top/bottom padding, smaller logo and
+       tagline. This shrinks the blue bars above/below the photo,
+       since there's less empty height for the photo to "contain" into. */
+    .hero{
+      padding: 50px 6% 40px;
+    }
+    .hero-logo{
+      max-width: 260px;
+      margin-bottom: 10px;
+    }
+    .eyebrow{
+      margin-bottom: 14px;
+      font-size: 11px;
+      padding: 4px 12px;
+    }
+    .hero .tag{
+      font-size: 15px;
+      margin-top: 14px;
+    }
+    .hero-ctas{
+      margin-top: 22px;
+    }
+    .btn{
+      padding: 12px 22px;
+      font-size: 12px;
+    }
   }
   .submit-btn{
     width:100%; background:var(--blue); color:var(--white);
