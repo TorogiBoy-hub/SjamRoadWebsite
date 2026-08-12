@@ -405,6 +405,7 @@ background-size: cover;
     .hero-logo{
       max-width: 200px;
       margin-bottom: 10px;
+      transform: translateY(-100px);
     }
     .eyebrow{
       margin-bottom: 14px;
