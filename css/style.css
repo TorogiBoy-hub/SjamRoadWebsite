@@ -8,6 +8,7 @@
     --amber: #E8A33D;
   }
   *{box-sizing:border-box; margin:0; padding:0;}
+  html{}
   body{
     background:var(--white);
     color:var(--black);
@@ -383,6 +384,19 @@
   }
   .row-2{display:grid; grid-template-columns:1fr 1fr; gap:16px;}
   @media (max-width:520px){.row-2{grid-template-columns:1fr;} .booking-wrap{padding:28px 22px;}}
+
+  /* On narrow phone screens, showing the photo at "cover" crops out the
+     sides and leaves just the middle person visible. Switch to "contain"
+     so the whole photo (all band members) stays visible, with the blue
+     background filling any empty space above/below. */
+  @media (max-width:640px){
+    .hero-bg-photo{
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-color: var(--blue-deep);
+    }
+  }
   .submit-btn{
     width:100%; background:var(--blue); color:var(--white);
     border:2px solid var(--blue); padding:16px; border-radius:6px;
