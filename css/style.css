@@ -392,7 +392,7 @@
     .hero-bg-photo{
 background-size: auto 120%;
       background-repeat: no-repeat;
-      background-position: 40% 0%;
+      background-position: 40% 50%;
       background-color: var(--blue-deep);
     }
     /* Shrinks the hero section on phones so it needs less vertical
@@ -400,7 +400,7 @@ background-size: auto 120%;
        tagline. This shrinks the blue bars above/below the photo,
        since there's less empty height for the photo to "contain" into. */
     .hero{
-      padding: 50px 6% 40px;
+      padding: 30px 6% 20px;
     }
     .hero-logo{
       max-width: 260px;
