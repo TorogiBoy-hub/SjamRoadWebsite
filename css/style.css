@@ -390,7 +390,7 @@
      background filling any empty space above/below. */
   @media (max-width:640px){
     .hero-bg-photo{
-background-size: auto 120%;
+background-size: cover;
       background-repeat: no-repeat;
       background-position: 40% 50%;
       background-color: var(--blue-deep);
@@ -400,13 +400,13 @@ background-size: auto 120%;
        tagline. This shrinks the blue bars above/below the photo,
        since there's less empty height for the photo to "contain" into. */
     .hero{
-      padding: 30px 6% 20px;
+      padding: 50px 6% 40px;
     }
     .hero-logo{
-      max-width: 260px;
+      max-width: 200px;
       margin-bottom: 10px;
       position: relative;
-      top: 0px; 
+      top: 50px; 
     }
     .eyebrow{
       margin-bottom: 14px;
