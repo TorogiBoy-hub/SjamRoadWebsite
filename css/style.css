@@ -8,7 +8,6 @@
     --amber: #E8A33D;
   }
   *{box-sizing:border-box; margin:0; padding:0;}
-  html{}
   body{
     background:var(--white);
     color:var(--black);
