@@ -475,6 +475,12 @@ background-size: cover;
     font-size:14px; font-weight:600; color:var(--white);
     transition:border-color .2s ease, color .2s ease;
   }
+  footer .socials svg{
+    width:20px;
+    height:20px;
+    fill:currentColor;
+    display:block;
+}
   footer .socials a:hover{border-color:var(--amber); color:var(--amber);}
   footer .fine{font-size:12px; color:#6d7178; margin-top:18px;}
 
